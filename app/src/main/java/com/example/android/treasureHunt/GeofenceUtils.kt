@@ -54,6 +54,13 @@ internal object GeofencingConstants {
     val GEOFENCE_EXPIRATION_IN_MILLISECONDS: Long = TimeUnit.HOURS.toMillis(1)
 
     val LANDMARK_DATA = arrayOf(
+
+        LandmarkDataObject(
+            "Lombard street",
+            R.string.lombard_street_hint,
+            R.string.lombard_street_location,
+            LatLng(37.801205, -122.426752)),
+
         LandmarkDataObject(
             "golden_gate_bridge",
             R.string.golden_gate_bridge_hint,
